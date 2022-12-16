@@ -5,8 +5,10 @@ public class ReverseString {
     public static void main(String[] args) {
 
         String str = "amazon";
+        String str1="creating a new git project";
 
         System.out.println(reverseString(str));
+        System.out.println(reverseString(str1));
 
     }
 
