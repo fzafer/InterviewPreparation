@@ -1,0 +1,153 @@
+* SDLC (Software Development Life Cycle)
+    Software Development Life Cycle. is a process used by the software industry to design,
+    develop and test a software with the high quality (customer needs), lowest cost and in the shortest time.
+
+    1-Requirement Gathering ->Business Team -> SRS document(Software Requirement Specification)
+    2-Designing ->Designers -> SDS Document
+    3-Developing -> Developers -> Initial version of the project
+    4-Testing -> Testers -> Bug free project/software
+    5-Production -> Client,End Users -> End user uses the product
+    6-Maintenance -> Developers -> Provide support
+
+* Unit Testing/White Box Testing
+    Unit Testing -> by Developers
+                    Smallest part of Codes
+                    White Box Testing -> code knowledge is necessary
+
+* Black Box Testing (Behavioral Testing)
+    No necessary code knowledge
+    It is a part of functional testing
+    by Manuel Testers
+    Automation Testers(Gray Box Testing - with partial knowledge)
+
+* Acceptance Criteria
+    -Acceptance criteria refer to a set of predefined requirements
+    -that must be met to mark a user story complete
+    written by PO or BA
+
+* Requirements
+    Expected functionalities/specifications about software
+
+* Testing levels (UAT testing) Unit, component testing, integration testing.
+
+    Testing levels?
+    1.    Software Testing:
+            a.    Static testing (Verification process)
+                i.    Req gathering
+                ii.    Designing
+            b.    Dynamic testing (validation process)
+                i.    Testing Levels
+                1.    Unit testing:
+                     a.    First level of testing.
+                     b.    Test the software’s individual unit or module from the developer’s code perspective.
+                     c.    Also called module or component testing
+                     d.    Developers write their unit tests for their code making sure that the code works correctly.
+                     e.    Performed by developers
+                     f.    In dev env
+                     g.    Part of White box testing (devs know the internal code)
+
+    2.    Integration testing
+            a.    Second level of testing
+            b.    Test a group of related modules to check data transfer and connectivity between units/modules
+            c.    Perf by developers (or senior testers or Q/As in some companies)
+            d.    in dev env
+            e.    part of white box testing
+    3.    System testing
+            a.    3rd level
+            b.    Software or system is tested as a whole from the app perspective
+            c.    Testers compare the actual software/result with the client’s expected requirement
+            d.    Perf by QA testers, performance testers
+            e.    in QA or Test env
+            f.    Black (manual testers) or Gray box (Automation testers) testing
+            g.    Divides into two
+            i.    Functional testing
+                    1.    by SDETs, test every functions as per the func reqs
+                    2.    Front/end IU test
+                    3.    Database
+                    4.    API test
+                    5.    Smoke:
+    a.    used for sw is sable or not, daily, 10-15 tests a day
+    b.    by jenkins, automaticly
+    6.    Regression: >20 tests a day
+    7.    Parallel
+    8.    Cross-browser test
+    [21:21]
+    ii.    Non functional testing
+    a.    Performance testers,
+    1.    stress,
+    2.    volume,
+    3.    capacity
+    4.    security
+    5.    installation
+    6.    speed
+
+    4.    User Acceptance Testing
+    i.    4th level
+    ii.    evaluates whether the sw is acceptable to be released.
+    iii.    PO provides spec reqs based on real world scenarios
+    iv.    Perf by client, end users
+    v.    in staging or pre production env
+    vi.    Black (client, end user) or gray (automation testers) box testing
+            a.    alpha testing
+                a.    perf by organization testers
+            b.    beta testing
+                a.    perf by the client or end use
+
+
+* What is STLC?
+
+    Systematic and well-defined steps performed during the testing of SW App
+
+    Requirement Analysis -> QA team try to understand documents created by Business Team
+    Test Planing
+    Test Case Development/Creation
+    Test Environment Setup
+    Test Execution
+    Test Cycle closure
+
+    1.    Req. analysis:
+    High level rqs for per release is delivered and explained by the business team – PM PO BA (business analyst)
+
+    2.    Test Planning
+    in Agile, test planning is handled with or without a test plan doc
+    Test plan doc is predared by QA lead or senior QA
+    Testers determine:
+        Who are testers
+        What is role & resp of eact tester
+        What is test strategy
+            Which features will be tested
+            Which testing types will be performed
+            In which env testing will be performed
+            Which testing tools will be used
+    Due date / schedule
+    What are resources of SW HW – jira AWS VM
+    Input – output – entry – exit criteria
+
+    3.    Test Case Creation
+    is a doc
+    QA creates test case doc per req / user story
+    Test case doc used for manual / automation testing
+    TC doc has: ID, description, summary, data, env, steps, actual – expected results, pass fail result
+
+    4.    Test Env setup:
+    Testers should make sure all the new codes are deployed from the dev env to the QA / Test env
+    Testers manually and automatically perform testing in test-QA env
+
+    Dev env: Unit & integration testing
+    QA env: Func & non-funct  for the QA and performance testers
+    Staging env UAT  the client, UAT team
+    Production env End users
+
+    5.    Test Execution
+    Once the user story clear, TC are written, test data and envs are ready, testers start testing (man auto) following TC
+    Expected result vs. actual result
+    Not match  testers follow the bug life cycle
+    •    Testers write bug reports
+    •    Bugs should be fixed by devs
+    •    Testers track the bugs, once fixed, testers retest to confirm bug is removed
+    Update the case status pass/fail results
+
+    6.    Test Closure
+    If successfull
+    Reports are auto generated
+    Requirement Traceability Matrix doc prepared
