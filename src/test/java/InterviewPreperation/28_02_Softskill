@@ -153,3 +153,103 @@
     If successfull
     Reports are auto generated
     Requirement Traceability Matrix doc prepared
+    
+    MANUAL TESTING
+*How do we execute manual testing in our work environment? on Jira by creating test cases and test executions.
+* Where do we store our test cases? in jira
+* Where do we write our Manuel test cases in our work environment? in Jira,QA environment.
+* Who decides priority? development team and business team together
+
+* How and who decides severity? tester define based on impact of defect on app. eg:if it is critical than it is imp.
+* What is scenario? What is test cases?
+ test case is a document to show how to test.
+scenario is one sentence explaning what to test clearly.
+* **
+ AGILE 
+* What is the difference between Agile and Waterfall?
+Waterfall: 1. take the SDLC step by step 
+                2. there is no going back to the previous step 
+
+ Agile
+               0. welcome changes : as long as the client wants to update the req, it's gonna be updated 
+               1. communication 
+               2. involve the client during the SDLC 
+               3. put the project on the market faster 
+
+* Advantages and Disadvantages of Agile and Waterfall?
+Advantages:
+  - waterfall : suitable for clear req. , small project, for government- security projects
+
+   - Agile: can handle even the complicated projects
+               frequently releasing the app
+               invite the client to get feedback in a short time
+
+
+* What kind of agile ceremonies we are following in our work environment?
+
+ Scrum meeting:
+                          1. Grooming: 
+                           1. The PO explains the US & AC to the dev team 
+                          2. The dev team assign points to the US based on the Fibonacci 
+                          1,2,3,5,8,13,21 
+
+   
+   2. Sprint planning: 
+      1. SM creates a sprint backlog (on Jira app, just click a button to do so)
+      2. SM & the dev team calculated the team capacity 
+      3. PO take/pull US from the PB to the SB based on the DOR list (definition of readiness)
+      4. SM starts the sprint & write our Sprint goal(on Jira app, just click a button to do so)
+
+  3.Daily stand up: the SM & the dev team , 15m, in the morning at (9/10am)
+                   the dev team update task status by answering 3 questions 
+                               1. What did you yesterday/last business day? 
+                               2. What you are doing today? 
+                               3. Do you have any problem? blocker? impediment? 
+
+                   [burn - down chart -> report, to learn remained USs]
+
+  4.Demo: Scrum team(3 amigos,SM,PO,Dev team) + the client, PM joins 
+         the dev team demo the completed US 
+         PO accepts/ rejects US based on the DOD criteria/list
+         any completed US are known as product increment/ potential releasable tasks
+         any incomplete US/tasks will back to the PB 
+         [SM -> ends/completed the SB]
+
+
+ 5.Retro: for the dev team to revisit the sprint & find out anything is working well? or not working well, any good ideas to make improvement 
+
+          SM host the meeting & the dev team answer 3 questions: 
+            what went wrong? 
+            what went well?
+            what can be done differently? new idea?  
+
+
+
+* What is our team structure? Scrum team (product owner,development team,scrum master)
+
+* How do we calculate team capacity? And what is our velocity ?
+there is 10 working days and so 8 days left.
+we need to multiply our days with workers availability. 
+
+* How do we give points for user story? based on fibonacchi.
+112358,according to t-sirt size( S,M,L )or pocker.
+
+* What is our sprint cycle?  2 weeks generally.
+
+* What is our release cycle? for every sprint.It depends.
+release cycle:is process of developing,testing and 
+
+* Who creates sprint backlog? SM.
+
+* Who prioritizes user stories for sprint backlog?  PO.
+
+* Retro meetings
+
++STLC
+
+QA:Who prepares QA env?
+QA1: Can BRD(business requirement document) be changed later?
+QA2:Can we think initial version of product as like in qa env?
+
+Acceptance Criteria - check list for the User Story , written PO, BA
+user stories: client's requirement
