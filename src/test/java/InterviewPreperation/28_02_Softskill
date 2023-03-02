@@ -46,52 +46,54 @@
                      f.    In dev env
                      g.    Part of White box testing (devs know the internal code)
 
-    2.    Integration testing
-            a.    Second level of testing
-            b.    Test a group of related modules to check data transfer and connectivity between units/modules
-            c.    Perf by developers (or senior testers or Q/As in some companies)
-            d.    in dev env
-            e.    part of white box testing
-    3.    System testing
-            a.    3rd level
-            b.    Software or system is tested as a whole from the app perspective
-            c.    Testers compare the actual software/result with the client’s expected requirement
-            d.    Perf by QA testers, performance testers
-            e.    in QA or Test env
-            f.    Black (manual testers) or Gray box (Automation testers) testing
-            g.    Divides into two
-            i.    Functional testing
-                    1.    by SDETs, test every functions as per the func reqs
-                    2.    Front/end IU test
-                    3.    Database
-                    4.    API test
-                    5.    Smoke:
-    a.    used for sw is sable or not, daily, 10-15 tests a day
-    b.    by jenkins, automaticly
-    6.    Regression: >20 tests a day
-    7.    Parallel
-    8.    Cross-browser test
-    [21:21]
-    ii.    Non functional testing
-    a.    Performance testers,
-    1.    stress,
-    2.    volume,
-    3.    capacity
-    4.    security
-    5.    installation
-    6.    speed
+                2.    Integration testing
+                     a.    Second level of testing
+                     b.    Test a group of related modules to check data transfer and connectivity between units/modules
+                     c.    Perf by developers (or senior testers or Q/As in some companies)
+                     d.    in dev env
+                     e.    part of white box testing
 
-    4.    User Acceptance Testing
-    i.    4th level
-    ii.    evaluates whether the sw is acceptable to be released.
-    iii.    PO provides spec reqs based on real world scenarios
-    iv.    Perf by client, end users
-    v.    in staging or pre production env
-    vi.    Black (client, end user) or gray (automation testers) box testing
-            a.    alpha testing
-                a.    perf by organization testers
-            b.    beta testing
-                a.    perf by the client or end use
+                3.    System testing
+                     a.    3rd level
+                     b.    Software or system is tested as a whole from the app perspective
+                     c.    Testers compare the actual software/result with the client’s expected requirement
+                     d.    Perf by QA testers, performance testers
+                     e.    in QA or Test env
+                     f.    Black (manual testers) or Gray box (Automation testers) testing
+                     g.    Divides into two
+
+                         i.    Functional testing
+                            1.    by SDETs, test every functions as per the func reqs
+                            2.    Front/end IU test
+                            3.    Database
+                            4.    API test
+                            5.    Smoke:
+                                a.    used for sw is stable or not, daily, 10-15 tests a day
+                                b.    by jenkins, automaticly
+                            6.    Regression: >20 tests a day
+                            7.    Parallel
+                            8.    Cross-browser test
+
+                         ii.    Non functional testing
+                            a.    Performance testers,
+                                1.    stress,
+                                2.    volume,
+                                3.    capacity
+                                4.    security
+                                5.    installation
+                                6.    speed
+
+                4.    User Acceptance Testing
+                    i.      4th level
+                    ii.     evaluates whether the sw is acceptable to be released.
+                    iii.    PO provides spec reqs based on real world scenarios
+                    iv.     Perform by client, end users
+                    v.      in staging or pre production env
+                    vi.     Black (client, end user) or gray (automation testers) box testing
+                           a.    alpha testing
+                              -    perf by organization testers
+                           b.    beta testing
+                              -    perf by the client or end use
 
 
 * What is STLC?
