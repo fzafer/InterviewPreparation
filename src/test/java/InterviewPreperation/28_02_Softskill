@@ -112,10 +112,10 @@
 
     2.    Test Planning
     in Agile, test planning is handled with or without a test plan doc
-    Test plan doc is predared by QA lead or senior QA
+    Test plan doc is prepared by QA lead or senior QA
     Testers determine:
         Who are testers
-        What is role & resp of eact tester
+        What is role & resp of each tester
         What is test strategy
             Which features will be tested
             Which testing types will be performed
